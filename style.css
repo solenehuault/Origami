@@ -1,0 +1,79 @@
+body {
+	background-image: url(Img/bg.png);
+	color: #85616F;
+}
+
+/*ajustement de la page*/
+.container {
+	width: 70%;
+	margin: auto;
+	margin-top: 30px;
+	background-color: #FEFEFE;
+}
+.center {
+	margin: 10px;
+}
+
+
+/*flex pour alignement titre/button*/
+.top {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 20px 30px 0px 30px;
+	color: black;
+}
+
+#sous_titre {
+	margin-left: 30px;
+}
+
+/*taille button*/
+.btn {
+	width: 34px;
+	height: 22px;
+}
+
+/*taille image*/
+.clouds {
+	height: 508px;
+	width: 900px;
+}
+
+.titre {
+	text-align: center;
+}
+
+footer {
+	color: grey;
+}
+
+h4 {
+	margin: 0px 0px 20px 30px;
+}
+
+h2 {
+	color: black;
+}
+
+strong {
+	font-weight: normal;
+}
+
+/*enlève certains arrondis de la barnav bootstrap*/
+nav {
+	border-radius: 0px;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	color : #AFAF83;
+}
+
+a:hover {
+	text-decoration: none;
+	color: grey;
+}
